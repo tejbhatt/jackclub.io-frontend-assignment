@@ -5,6 +5,8 @@ This project renders a 2FA/OTP input as **six square boxes** with full keyboard 
 ## Run
 ```bash
 npm install
+
+npm install @tailwindcss/forms
 npm run dev
 ```
 Then open the URL printed in your terminal (usually http://localhost:5173).

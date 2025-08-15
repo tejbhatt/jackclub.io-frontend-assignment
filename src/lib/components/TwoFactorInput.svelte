@@ -15,7 +15,7 @@
   export let error = '';
   export let value = '';
   export let autoFocus = true;
-  export let redirectUrl = '/dashboard'; // Default redirect URL
+  export let redirectUrl = '/'; // Default redirect URL
 
   const store = createOtpStore(length);
   let slots = Array(length).fill('');
